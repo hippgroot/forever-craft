@@ -1,0 +1,115 @@
+# Config version is auto-generated
+# DO NOT CHANGE
+configVersion = 1
+# Simple toggle for the mod! Set to false to disable.
+modEnabled = true
+
+[hotbarSwap]
+# Master toggle for hotbar swapping. When false, the hotbar-swap modifier keybind does nothing (scroll and number-key row selection are both inert) and the swapped-row badge is hidden.
+enableHotbarSwap = true
+# While holding the hotbar-swap key, let number keys 1-3 select a row to swap into the hotbar.
+hotbarSwapNumberKeys = true
+
+[durability]
+# Show a low-durability action-bar alert (and anvil ping) when a tool or equipped item drops past a threshold.
+durabilityAlertEnabled = true
+# First percent-of-max durability threshold (0-99) that triggers a low-durability alert; fires once as durability crosses it downward. Set to 0 to skip this threshold.
+durabilityAlertThreshold1 = 10
+# Second percent-of-max durability threshold (0-99) that triggers a low-durability alert; fires once as durability crosses it downward. Set to 0 to skip this threshold.
+durabilityAlertThreshold2 = 5
+# Also fire a low-durability alert at exactly 1 durability point remaining.
+durabilityAlertAtOne = true
+# Play the anvil ping sound with the low-durability alert (the action-bar message always shows).
+durabilityAlertSound = true
+# Right before a held/worn item breaks, swap in a matching replacement from your inventory. Requires the mod on the server in multiplayer.
+durabilityAutoReplace = false
+# Relax auto-replace matching from strict (same item + enchantments) to similar (same category, ignoring material/enchantments).
+durabilityAutoReplaceSimilar = false
+
+[sorting]
+# Whether to show sort buttons in the UI.
+showSort = true
+# Whether to show transfer buttons in the UI.
+showTransfer = true
+# Whether to show auto-stack buttons in the UI.
+showStack = true
+# How items are ordered when sorting. 'alphabetical' sorts by item name; 'creative' uses creative-menu order.
+sortMode = "alphabetical"
+# Place items that hold contents (shulker boxes, bundles, etc.) before other items. Only applies in 'alphabetical' sort mode.
+containersFirst = false
+# Customize a default for button position.
+defaultPosition = [-4, -1]
+# Customize button position on a per-screen basis.
+screenPositions = "{}"
+# Master toggle for locking player-inventory slots (Ctrl+click). When false, locking is disabled, no markers/tooltips are drawn, and locked slots are no longer skipped by sort/auto-stack/transfer. Stored locks are kept for when it is re-enabled.
+enableSlotLocking = true
+# When to draw the locked-slot marker (border + darkened background). 'shown' always draws it; 'hidden' never does; 'hotkey' only while the 'Peek locked slots' keybind is held.
+lockedSlotDisplay = "shown"
+# Per-server locked player-inventory slot indices, keyed by server address. Single-player locks are stored per-save in the world config instead. Managed programmatically; no GUI control.
+serverLockedPlayerSlots = "{}"
+
+[grouping]
+# Group color/variant families of items together (e.g. all wool colors, all terracotta) instead of sorting each variant purely by name.
+itemGrouping = true
+# Group items together based on datapack-defined item tags under the 'grouping/' folder (e.g. #mymod:grouping/gems). Master switch for all pack-defined grouping families.
+dynamicGroups = true
+# Individually disabled datapack grouping families, by full tag id (e.g. mymod:grouping/gems). Managed programmatically; no GUI control.
+disabledDynamicGroups = []
+# Group Glazed Terracotta variants together when sorting.
+glazed_terracotta = true
+# Group Terracotta variants together when sorting.
+terracotta = true
+# Group Stained Glass Panes variants together when sorting.
+stained_glass_pane = true
+# Group Stained Glass variants together when sorting.
+stained_glass = true
+# Group Concrete Powder variants together when sorting.
+concrete_powder = true
+# Group Concrete variants together when sorting.
+concrete = true
+# Group Wool variants together when sorting.
+wool = true
+# Group Carpets variants together when sorting.
+wool_carpets = true
+# Group Beds variants together when sorting.
+beds = true
+# Group Candles variants together when sorting.
+candles = true
+# Group Banners variants together when sorting.
+banners = true
+# Group Shulker Boxes variants together when sorting.
+shulker_boxes = true
+# Group Dyes variants together when sorting.
+dyes = true
+# Group Planks variants together when sorting.
+planks = true
+# Group Wooden Slabs variants together when sorting.
+wooden_slabs = true
+# Group Wooden Stairs variants together when sorting.
+wooden_stairs = true
+# Group Wooden Doors variants together when sorting.
+wooden_doors = true
+# Group Wooden Trapdoors variants together when sorting.
+wooden_trapdoors = true
+# Group Wooden Fences variants together when sorting.
+wooden_fences = true
+# Group Fence Gates variants together when sorting.
+fence_gates = true
+# Group Signs variants together when sorting.
+signs = true
+# Group Hanging Signs variants together when sorting.
+hanging_signs = true
+# Group Leaves variants together when sorting.
+leaves = true
+# Group Saplings variants together when sorting.
+saplings = true
+# Group Boats variants together when sorting.
+boats = true
+# Group Spawn Eggs variants together when sorting.
+spawn_eggs = true
+# Group Pottery Sherds variants together when sorting.
+pottery_sherds = true
+# Group Horse Armor variants together when sorting.
+horse_armor = true
+# Group Coral variants together when sorting.
+coral = true

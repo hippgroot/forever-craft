@@ -1,0 +1,12 @@
+# Repo files that are not part of the pack
+README.md
+MODLIST.md
+CHANGELOG.md
+LICENSE
+icon.png
+server/
+prism/
+.github/
+docs/
+zips/
+config/xaeropatreon.txt

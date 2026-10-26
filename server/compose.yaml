@@ -1,0 +1,18 @@
+services:
+  forevercraft-server:
+    image: eclipse-temurin:25-jre
+    container_name: forevercraft-server
+    working_dir: /server
+    command: ["bash", "start.sh"]
+    volumes:
+      - .:/server
+    ports:
+      - "25565:25565"
+      - "127.0.0.1:25575:25575"
+    environment:
+      TZ: America/New_York
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    stop_grace_period: 2m
+    user: "1000:1000"

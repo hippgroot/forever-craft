@@ -1,0 +1,13 @@
+name = "Fast Leaf Decay"
+filename = "fast_leaf_decay-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SrvMdjnx/versions/H6LfkISR/fast_leaf_decay-2.0.1.jar"
+hash-format = "sha512"
+hash = "9d5702882d4eec564a2307831e42e1c08f2db109ed91add1db89a628fda11065f2691ab4d33a72ee5f5c0747d02440cde072ff47f219dcd98350ce01609794b9"
+
+[update]
+[update.modrinth]
+mod-id = "SrvMdjnx"
+version = "H6LfkISR"

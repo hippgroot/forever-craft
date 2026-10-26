@@ -1,0 +1,13 @@
+name = "Simple Magnets"
+filename = "simplemagnets-1.1.12-fabric-mc26.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YyNQVpOu/versions/CckGcDAt/simplemagnets-1.1.12-fabric-mc26.3.jar"
+hash-format = "sha512"
+hash = "bdf6cb9a9bda99bbc6fd92a5d968bb37fe873a654e0f5a2872a3c265ede00c8e4ae643d74858b8dc3f950c58d50f58ba0c2b3703a82ef9869f3cc7ee325903c9"
+
+[update]
+[update.modrinth]
+mod-id = "YyNQVpOu"
+version = "CckGcDAt"

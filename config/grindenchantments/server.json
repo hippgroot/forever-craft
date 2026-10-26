@@ -1,0 +1,77 @@
+{
+  "disenchant_to_book": {
+    "enabled": true,
+    "consume_enchanted_item": false,
+    "only_take_first": true,
+    "cost_function": {
+      "type": "grindenchantments:filter",
+      "function": {
+        "type": "grindenchantments:first_enchantment",
+        "function": {
+          "type": "grindenchantments:transform",
+          "factor": 1.0,
+          "offset": 0.0,
+          "function": {
+            "type": "grindenchantments:count_levels",
+            "normal_factor": 0.5,
+            "treasure_factor": 0.5
+          }
+        }
+      }
+    }
+  },
+  "move_enchantments": {
+    "enabled": true,
+    "cost_function": {
+      "type": "grindenchantments:filter",
+      "function": {
+        "type": "grindenchantments:first_enchantment",
+        "function": {
+          "type": "grindenchantments:transform",
+          "factor": 1.0,
+          "offset": 0.0,
+          "function": {
+            "type": "grindenchantments:count_levels",
+            "normal_factor": 0.5,
+            "treasure_factor": 0.5
+          }
+        }
+      }
+    }
+  },
+  "reset_repair_cost": {
+    "enabled": false,
+    "catalyst_items": "minecraft:diamond",
+    "requires_enchantment": true,
+    "cost_function": {
+      "type": "grindenchantments:transform",
+      "factor": 1.5,
+      "offset": 4.0,
+      "function": {
+        "type": "grindenchantments:average_count",
+        "function": {
+          "type": "grindenchantments:count_levels",
+          "normal_factor": 1.0,
+          "treasure_factor": 4.0
+        }
+      }
+    }
+  },
+  "filter": {
+    "enabled": true,
+    "item": {
+      "enchantments": [],
+      "action": "deny"
+    },
+    "enchantment": {
+      "enchantments": [],
+      "action": "ignore"
+    },
+    "cursed_enchantments": "ignore"
+  },
+  "dedicated_server_options": {
+    "alternative_cost_display_enabled": false
+  },
+  "treat_cost_as_points": false,
+  "version": 5
+}

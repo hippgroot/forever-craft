@@ -1,0 +1,13 @@
+name = "XP Tome"
+filename = "xptome-fabric-26.3-2.5.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AnpW69o3/versions/uFEEegKm/xptome-fabric-26.3-2.5.1.jar"
+hash-format = "sha512"
+hash = "c67a21744634c860605de0e44bd71bb28ecdc90ab2f7f7c0f8530c7e241ed833aa9ab329b6600d414165b42f6a9b8b6c24c2f1b4abb1702d4aa53fa45dc34eda"
+
+[update]
+[update.modrinth]
+mod-id = "AnpW69o3"
+version = "uFEEegKm"

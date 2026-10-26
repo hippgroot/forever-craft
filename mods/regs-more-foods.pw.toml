@@ -1,0 +1,13 @@
+name = "Reg's More Foods"
+filename = "regs-more-foods-1.5.2+26.3+mod.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2jidfU3A/versions/ebuLruaV/regs-more-foods-1.5.2%2B26.3%2Bmod.jar"
+hash-format = "sha512"
+hash = "599e233192250cf3e03423ab568725eea03dabc94b1db703a16c14f5fb1d7c1e71ac28480437f3beddbf2be018db22deede0e0fbdfcd3354649d2f04adb6bfc3"
+
+[update]
+[update.modrinth]
+mod-id = "2jidfU3A"
+version = "ebuLruaV"

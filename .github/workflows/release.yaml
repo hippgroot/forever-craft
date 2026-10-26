@@ -1,0 +1,102 @@
+name: Release draft
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    env:
+      TAG: ${{ github.ref_name }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install packwiz
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Check tag matches pack version
+        run: |
+          version=$(sed -n 's/^version = "\(.*\)"/\1/p' pack.toml | head -n 1)
+          echo "VERSION=$version" >> "$GITHUB_ENV"
+          if [ "$TAG" != "v$version" ]; then
+            echo "::error::Tag $TAG does not match pack.toml version $version (expected v$version)"
+            exit 1
+          fi
+
+      - name: Check index is up to date
+        run: |
+          packwiz refresh
+          if ! git diff --quiet; then
+            git --no-pager diff --stat
+            echo "::error::index.toml is out of date. Run 'packwiz refresh', commit, and re-tag."
+            exit 1
+          fi
+
+      - name: Download packwiz bootstrap
+        run: |
+          mkdir -p dist
+          curl -fsSL -o bootstrap.jar \
+            https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+
+      - name: Download Fabric server launcher
+        run: |
+          minecraft=$(sed -n 's/^minecraft = "\(.*\)"/\1/p' pack.toml)
+          loader=$(sed -n 's/^fabric = "\(.*\)"/\1/p' pack.toml)
+          installer=$(curl -fsSL https://meta.fabricmc.net/v2/versions/installer | jq -r 'map(select(.stable)) | .[0].version')
+          if [ -z "$minecraft" ] || [ -z "$loader" ] || [ -z "$installer" ] || [ "$installer" = "null" ]; then
+            echo "::error::Could not work out Fabric versions (minecraft=$minecraft loader=$loader installer=$installer)"
+            exit 1
+          fi
+          echo "Fabric server launcher: Minecraft $minecraft, Loader $loader, installer $installer"
+          curl -fsSL -o fabric.jar \
+            "https://meta.fabricmc.net/v2/versions/loader/$minecraft/$loader/$installer/server/jar"
+
+      - name: Build forevercraft-server.zip
+        run: |
+          cp bootstrap.jar server/packwiz-installer-bootstrap.jar
+          cp fabric.jar server/fabric.jar
+          chmod +x server/*.sh
+          zip -r -X dist/forevercraft-server.zip server
+
+      - name: Build Forever Craft.zip
+        run: |
+          mkdir -p prism/minecraft
+          cp bootstrap.jar prism/minecraft/packwiz-installer-bootstrap.jar
+          cd prism
+          zip -r -X "../dist/Forever Craft.zip" .
+
+      - name: Extract release notes from CHANGELOG.md
+        run: |
+          awk -v ver="$VERSION" '
+            /<!--/ { comment = 1 }
+            comment { if (/-->/) comment = 0; next }
+            index($0, "## [" ver "]") == 1 { found = 1; next }
+            found && /^## \[/ { exit }
+            found { print }
+          ' CHANGELOG.md > notes.md
+          if [ ! -s notes.md ]; then
+            echo "::warning::No CHANGELOG.md entry for $VERSION"
+            echo "No changelog entry for this version." > notes.md
+          fi
+
+      - name: Create draft release
+        run: |
+          gh release create "$TAG" \
+            --draft \
+            --verify-tag \
+            --title "Forever Craft $VERSION" \
+            --notes-file notes.md \
+            "dist/Forever Craft.zip" \
+            dist/forevercraft-server.zip

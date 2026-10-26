@@ -1,0 +1,27 @@
+# Exported packs go on GitHub Releases, not in the repo
+*.mrpack
+/*.zip
+zips/
+
+# packwiz tools
+packwiz.exe
+packwiz
+packwiz-installer-bootstrap.jar
+packwiz-installer.jar
+packwiz.json
+
+# Downloaded by the release workflow
+server/fabric.jar
+
+# Server runtime files (if you ever test the server inside this folder)
+world/
+logs/
+crash-reports/
+libraries/
+versions/
+.fabric/
+*.log
+usercache.json
+banned-*.json
+ops.json
+whitelist.json

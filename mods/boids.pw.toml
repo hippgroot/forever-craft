@@ -1,0 +1,13 @@
+name = "Boids"
+filename = "boids-2.0.0+26.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2OckSy74/versions/JfgjDPYD/boids-2.0.0%2B26.3.jar"
+hash-format = "sha512"
+hash = "06e874c94994c8923cc9d58a3494a6a182857a101c341708cc9361b1b6f412e747e3ca5f64a58aa377804460bccf069c47a658fe8bec5485bdbf7a73667e0a2d"
+
+[update]
+[update.modrinth]
+mod-id = "2OckSy74"
+version = "JfgjDPYD"

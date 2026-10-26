@@ -1,0 +1,13 @@
+name = "Forever Craft"
+author = "hippgroot"
+version = "1.2.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "77e112520ef30e2200efd8e2d0450a8b0e12dcdbe8727c3e69ea30862b3dbb5a"
+
+[versions]
+fabric = "0.20.1"
+minecraft = "26.3"

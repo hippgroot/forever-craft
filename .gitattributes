@@ -1,0 +1,3 @@
+# Keep files byte-for-byte identical on every OS.
+# packwiz checks file hashes, so Windows line-ending conversion would break installs.
+* -text

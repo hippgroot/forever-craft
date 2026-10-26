@@ -1,0 +1,13 @@
+name = "Player Death Corpses"
+filename = "player-death-corpses-3.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jzoouHnf/versions/dqNslZrU/player-death-corpses-3.8.jar"
+hash-format = "sha512"
+hash = "92ff7a085e881d82138345b0595d38639b0ce020863dccfcec7ca1511e0c7a1bee4895911b311f3dbd31c083ea602af3b1683a5d4e3175739dccd45b8254955f"
+
+[update]
+[update.modrinth]
+mod-id = "jzoouHnf"
+version = "dqNslZrU"

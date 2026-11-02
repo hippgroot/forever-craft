@@ -101,6 +101,7 @@ hash = "54a1d73b166a3319785ea8e80789d745db15c374184e52622322d34b681b359d"
 [[files]]
 file = "config/inventorymanagement.toml"
 hash = "ecbbc887132fbc5b209402a1178117100f5cff1c52405b52c5004738e480145c"
+preserve = true
 
 [[files]]
 file = "config/iris-excluded.json"
@@ -357,7 +358,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "c3a59f35ea941ed17c5e20ed26144ad344a11f1c34d878245992dbc9135f2008"
+hash = "f0c7c1bcd9aadb0eb4b4aeb30af226467ee0c522ce4c12e5e60c5d8adbc6c575"
 metafile = true
 
 [[files]]
@@ -377,7 +378,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "37747b9f37f260a034c648c846d29d4ee3645e30e1c60fbfe5fc451d7639dea1"
+hash = "93d567cc41ec1e308f7484f230488f89092742cf3fc94f7e43dc1a3af0fc3e02"
 metafile = true
 
 [[files]]
@@ -407,7 +408,7 @@ metafile = true
 
 [[files]]
 file = "mods/easyelytratakeoff.pw.toml"
-hash = "c940e9dc877506ff12919e582bda1fa8d3feaa654032b51d6dbbbcf645480ed6"
+hash = "5e5266a34ddf1a5ccc340e726beb25c6dfe93cc0a62bb57a57f06f8702fed0fe"
 metafile = true
 
 [[files]]
@@ -477,7 +478,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "3b4bfcf9924e7a4c267199aa982130198bef1d4de293d7c69961d5e8823469a2"
+hash = "ceed3907704f3478bda90a96f62e642fa6e2b0817ae6ba5d93cf0ca91d636342"
 metafile = true
 
 [[files]]
@@ -492,12 +493,12 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "a39389e4c813b70b984a0c8aed769825b32c321ee0b9aed1151d92cb38f77357"
+hash = "b44f3ab71e52f1aaae97cf8644f2316042de8b7777d6b6794567c8c7d220bd2b"
 metafile = true
 
 [[files]]
 file = "mods/mezz-config.pw.toml"
-hash = "dbf4d082ccea56d854267a7b17028ec3e44513d2bc7a4834ab6d057b7f8b01e2"
+hash = "0772ceadb6c01a40042a29c16e6ca44bb56e55e86161021bb7eafec0530fca85"
 metafile = true
 
 [[files]]
@@ -522,7 +523,7 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughanimations.pw.toml"
-hash = "d60f63dffcf68f88d6abb0fabd2ba7246831929a41c1179744912d03e3ba28d3"
+hash = "353e7e6605f04764a8fc7f18d7e1833ffd23301f23509a85482654f467fb696f"
 metafile = true
 
 [[files]]
@@ -542,7 +543,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzleslib.pw.toml"
-hash = "b3c1a801fd92ba2ffcb9b73a8d8d2f13ec6912f70445f492453502734e4d143e"
+hash = "1d781325cf9001dddce371f093e679e84e93024d62cc28e367343c4cc1d8ca04"
 metafile = true
 
 [[files]]
@@ -582,7 +583,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642corelib.pw.toml"
-hash = "b95795bc5204e74a8c355949a302976bc7c1786cc2dfb1a6bf76c047be8860a6"
+hash = "63d1a46f0deeb755036fe55b93b4569f3874bc19cf5a346e33e9dea0652d9c4d"
 metafile = true
 
 [[files]]

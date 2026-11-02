@@ -14,7 +14,7 @@ whatever changed and then starts the game. You never need to download mods yours
 
 ## Option 1: import the ready-made instance (easiest)
 
-1. Download `Forever Craft.zip` from the [latest release](https://github.com/hippgroot/forever-craft/releases/latest).
+1. Download `forevercraft.zip` from the [latest release](https://github.com/hippgroot/forever-craft/releases/latest).
 2. In Prism, click **Add Instance → Import**, choose the zip and click **OK**.
 3. Check the memory setting (see [Memory](#memory) below), then launch.
 

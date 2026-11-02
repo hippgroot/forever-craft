@@ -16,7 +16,7 @@ download the real files themselves through packwiz-installer.
 | `config/` | Config files shipped to players and the server |
 | `.packwizignore` | Repo files that are **not** part of the pack (docs, server folder, zips…) |
 | `server/` | Docker setup for the server ([server guide](server.md)) |
-| `prism/` | The Prism instance that becomes `Forever Craft.zip` |
+| `prism/` | The Prism instance that becomes `forevercraft.zip` |
 
 Clients and the server read `pack.toml` from the `main` branch on every launch:
 `https://raw.githubusercontent.com/hippgroot/forever-craft/main/pack.toml`
@@ -101,7 +101,7 @@ Point a spare Prism instance at your work instead of `main`, using one of these 
    ```
 5. The **Release draft** workflow (`.github/workflows/release.yaml`) then runs on GitHub. It:
    - fails if the tag doesn't match `pack.toml`, or if `index.toml` is out of date
-   - builds **`Forever Craft.zip`** from the `prism/` folder and **`forevercraft-server.zip`** from the `server/`
+   - builds **`forevercraft.zip`** from the `prism/` folder and **`forevercraft-server.zip`** from the `server/`
      folder, adding the latest packwiz bootstrap jar to both
    - creates a **draft** release with both zips and that version's `CHANGELOG.md` section as the notes
 6. Check the draft on the [releases page](https://github.com/hippgroot/forever-craft/releases) and click **Publish**.
@@ -120,7 +120,7 @@ only setup. The jars aren't stored in the repo: the workflow downloads the lates
 zips, and the Fabric server launcher (as `server/fabric.jar`) for the Minecraft and Fabric versions in
 `pack.toml`.
 
-- **`Forever Craft.zip`** comes from `prism/`:
+- **`forevercraft.zip`** comes from `prism/`:
   - `instance.cfg`: memory (`MaxMemAlloc`), Java arguments (`JvmArgs`) and the pre-launch command
   - `mmc-pack.json`: the Minecraft and Fabric Loader versions
   - `icon.png`, `.packignore`

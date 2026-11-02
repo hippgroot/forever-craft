@@ -17,6 +17,21 @@ Template for a new version (copy above the latest entry):
 - 
 -->
 
+## [1.2.1] - 2026-11-02
+### Updated
+- C2ME 0.4.2-alpha.0.106 -> 0.4.2-alpha.0.115
+- Collective 8.64 -> 8.73
+- Easy Elytra Takeoff 4.6 -> 5.0
+- Just Enough Items (JEI) 31.17.0.93 -> 31.17.0.108
+- Lithium 0.26.2 -> 0.26.3
+- Mezz Config 0.6.9 -> 0.6.10
+- Not Enough Animations 1.12.6 -> 1.12.7
+- Puzzles Lib 26.3.16 -> 26.3.17
+- SuperMartijn642's Core Lib 1.1.25 -> 1.1.26c
+
+### Docs
+- The Prism download on the release page is now named `forevercraft.zip`.
+
 ## [1.2.0] - 2026-10-25
 ### Updated
 - Fabric Loader 0.19.5 -> 0.20.1.

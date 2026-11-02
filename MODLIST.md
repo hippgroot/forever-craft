@@ -15,14 +15,14 @@ Forever Craft · Minecraft 26.3 · Fabric Loader 0.20.1
 | [Chunk Loaders](https://modrinth.com/project/t1VgucWo) | Client + Server | `chunkloaders-1.2.9-fabric-mc26.3.jar` |
 | [Cloth Config API](https://modrinth.com/project/9s6osm5g) | Client + Server | `cloth-config-fabric-26.3.159.jar` |
 | [Clumps](https://modrinth.com/project/Wnxd13zP) | Client + Server | `Clumps-fabric-26.3-26.3.2.jar` |
-| [Collective](https://modrinth.com/project/e0M1UDsY) | Client + Server | `collective-26.3.0-8.64.jar` |
-| [Concurrent Chunk Management Engine (C2ME)](https://modrinth.com/project/VSNURh3q) | Client + Server | `c2me-fabric-mc26.3-0.4.2-alpha.0.106.jar` |
+| [Collective](https://modrinth.com/project/e0M1UDsY) | Client + Server | `collective-26.3.0-8.73.jar` |
+| [Concurrent Chunk Management Engine (C2ME)](https://modrinth.com/project/VSNURh3q) | Client + Server | `c2me-fabric-mc26.3-0.4.2-alpha.0.115.jar` |
 | [Continuity](https://modrinth.com/project/1IjD5062) | Client only | `continuity-3.0.1+26.3.jar` |
 | [Distant Horizons](https://modrinth.com/project/uCdwusMi) | Client only | `DistantHorizons-3.3.4-26.3-fabric-neoforge.jar` |
 | [Durability Tooltip](https://modrinth.com/project/smUP7V3r) | Client only | `durabilitytooltip-1.2.0a-fabric-mc26.3.jar` |
 | [Dynamic FPS](https://modrinth.com/project/LQ3K71Q1) | Client only | `dynamic-fps-3.11.10+minecraft-26.3.0-fabric.jar` |
 | [Easy Anvils](https://modrinth.com/project/OZBR5JT5) | Client + Server | `easyanvils-v26.3.1-mc26.3.x+fabric.jar` |
-| [Easy Elytra Takeoff](https://modrinth.com/project/3hqwGCUB) | Client + Server | `easyelytratakeoff-26.3.0-4.6.jar` |
+| [Easy Elytra Takeoff](https://modrinth.com/project/3hqwGCUB) | Client + Server | `easyelytratakeoff-26.3.0-5.0.jar` |
 | [Easy Magic](https://modrinth.com/project/9hx3AbJM) | Client + Server | `easymagic-v26.3.0-mc26.3.x+fabric.jar` |
 | [Entity Culling](https://modrinth.com/project/NNAgCjsB) | Client only | `entityculling-fabric-1.11.3-mc26.3.jar` |
 | [Fabric API](https://modrinth.com/project/P7dR8mSH) | Client + Server | `fabric-api-0.165.0+26.3.jar` |
@@ -36,19 +36,19 @@ Forever Craft · Minecraft 26.3 · Fabric Loader 0.20.1
 | [Iris Shaders](https://modrinth.com/project/YL57xq9U) | Client only | `iris-fabric-1.11.7+mc26.3.jar` |
 | [Jade](https://modrinth.com/project/nvQzSEkH) | Client + Server | `Jade-mc26.3-Fabric-26.3.5.jar` |
 | [JamLib](https://modrinth.com/project/IYY9Siz8) | Client + Server | `jamlib-fabric-2.3.1+26.3.x.jar` |
-| [Just Enough Items (JEI)](https://modrinth.com/project/u6dRKJwZ) | Client + Server | `jei-26.3-fabric-31.17.0.93.jar` |
+| [Just Enough Items (JEI)](https://modrinth.com/project/u6dRKJwZ) | Client + Server | `jei-26.3-fabric-31.17.0.108.jar` |
 | [LambDynamicLights](https://modrinth.com/project/yBW8D80W) | Client only | `lambdynamiclights-4.13.0+26.3.jar` |
 | [Leash Villager](https://modrinth.com/project/Nken9kmQ) | Client + Server | `leash-villager-1.0.1+mc26.3.jar` |
-| [Lithium](https://modrinth.com/project/gvQqBUqZ) | Client + Server | `lithium-fabric-0.26.2+mc26.3.jar` |
-| [Mezz Config](https://modrinth.com/project/7tEfOcA7) | Client + Server | `mezz_config-26.3-fabric-0.6.9.jar` |
+| [Lithium](https://modrinth.com/project/gvQqBUqZ) | Client + Server | `lithium-fabric-0.26.3+mc26.3.jar` |
+| [Mezz Config](https://modrinth.com/project/7tEfOcA7) | Client + Server | `mezz_config-26.3-fabric-0.6.10.jar` |
 | [Mod Menu](https://modrinth.com/project/mOgUt4GM) | Client only | `modmenu-21.0.0.jar` |
 | [Mouse Tweaks](https://modrinth.com/project/aC3cM3Vq) | Client only | `MouseTweaks-fabric-mc26.3-2.31.jar` |
 | [NetherPortalFix](https://modrinth.com/project/nPZr02ET) | Client + Server | `netherportalfix-fabric-26.3-26.3.0.1.jar` |
 | [No Telemetry](https://modrinth.com/project/hg77g4Pw) | Client only | `no-telemetry-1.10.0.jar` |
-| [Not Enough Animations](https://modrinth.com/project/MPCX6s5C) | Client only | `notenoughanimations-fabric-1.12.6-mc26.3.jar` |
+| [Not Enough Animations](https://modrinth.com/project/MPCX6s5C) | Client only | `notenoughanimations-fabric-1.12.7-mc26.3.jar` |
 | [Packet Fixer](https://modrinth.com/project/c7m1mi73) | Client + Server | `PacketFixer-fabric-3.3.6.jar` |
 | [Player Death Corpses](https://modrinth.com/project/jzoouHnf) | Client + Server | `player-death-corpses-3.8.jar` |
-| [Puzzles Lib](https://modrinth.com/project/QAGBst4M) | Client + Server | `puzzleslib-v26.3.16-mc26.3.x+fabric.jar` |
+| [Puzzles Lib](https://modrinth.com/project/QAGBst4M) | Client + Server | `puzzleslib-v26.3.17-mc26.3.x+fabric.jar` |
 | [Reg's More Foods](https://modrinth.com/project/2jidfU3A) | Client + Server | `regs-more-foods-1.5.2+26.3+mod.jar` |
 | [Right Click Harvest](https://modrinth.com/project/Cnejf5xM) | Client + Server | `rightclickharvest-fabric-4.6.2+26.3.x.jar` |
 | [Shulker Box Tooltip](https://modrinth.com/project/2M01OLQq) | Client + Server | `shulkerboxtooltip-fabric-5.4.3+26.3.jar` |
@@ -56,7 +56,7 @@ Forever Craft · Minecraft 26.3 · Fabric Loader 0.20.1
 | [Sodium](https://modrinth.com/project/AANobbMI) | Client only | `sodium-fabric-0.9.3-beta.1+mc26.3.jar` |
 | [Sound Physics Remastered](https://modrinth.com/project/qyVF9oeo) | Client only | `sound-physics-remastered-fabric-1.5.2+26.3.jar` |
 | [SuperMartijn642's Config Lib](https://modrinth.com/project/LN9BxssP) | Client + Server | `supermartijn642configlib-1.1.8a-fabric-mc26.3.jar` |
-| [SuperMartijn642's Core Lib](https://modrinth.com/project/rOUBggPv) | Client + Server | `supermartijn642corelib-1.1.25-fabric-mc26.3.jar` |
+| [SuperMartijn642's Core Lib](https://modrinth.com/project/rOUBggPv) | Client + Server | `supermartijn642corelib-1.1.26c-fabric-mc26.3.jar` |
 | [TCD Commons API](https://modrinth.com/project/Eldc1g37) | Client + Server | `tcdcommons-5.8.0+fn-26.3.jar` |
 | [Text Placeholder API](https://modrinth.com/project/eXts2L7r) | Client + Server | `placeholder-api-3.2.0+26.3.jar` |
 | [Tom's Simple Storage](https://modrinth.com/project/XZNI4Cpy) | Client + Server | `toms_storage_fabric-26.3-2.12.2.jar` |

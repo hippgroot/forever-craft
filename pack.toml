@@ -1,12 +1,12 @@
 name = "Forever Craft"
 author = "hippgroot"
-version = "1.2.1"
+version = "1.2.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "a40e9daf3f04d8dc4322843ff7f3957ccf741dc92f330218ac0f5101bb3e5f70"
+hash = "d545ae652c9b3891fddb8121442826b9ba24a06ed9cc74bede5a636ab98993ce"
 
 [versions]
 fabric = "0.20.1"

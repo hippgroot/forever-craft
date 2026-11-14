@@ -1,13 +1,13 @@
 name = "Veinminer Client"
-filename = "veinminer-client-fabric-2.13.0.jar"
+filename = "veinminer-client-fabric-2.13.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/dxa0Bm8m/versions/H6CkqQwX/veinminer-client-fabric-2.13.0.jar"
+url = "https://cdn.modrinth.com/data/dxa0Bm8m/versions/X4effOjM/veinminer-client-fabric-2.13.1.jar"
 hash-format = "sha512"
-hash = "3717d55179bfef9bdc689f50826f29ea13b09e9b676746469044c3cf576850da647c1ff085f1787bd73276b090b9b33c1b1664c16b3aeaf279cc988d2bd5ce99"
+hash = "93d1eba26039905f609961d7b3e4938fbb2d47417eb5be4dd32a69f24cd76a8f579127b5410ea89b85cc6f0dae165baf911bed1050457e5479cc7fd350539dd3"
 
 [update]
 [update.modrinth]
 mod-id = "dxa0Bm8m"
-version = "H6CkqQwX"
+version = "X4effOjM"

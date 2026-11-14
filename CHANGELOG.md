@@ -17,6 +17,24 @@ Template for a new version (copy above the latest entry):
 - 
 -->
 
+## [1.2.2] - 2026-11-14
+### Updated
+- C2ME 0.4.2-alpha.0.115 -> 0.4.2-alpha.0.119
+- Collective 8.73 -> 8.86
+- Easy Magic 26.3.0 -> 26.3.1
+- Entity Culling 1.11.3 -> 1.12.1
+- Fabric API 0.165.0 -> 0.166.2
+- JamLib 2.3.1 -> 2.3.2
+- Just Enough Items (JEI) 31.17.0.108 -> 31.17.0.113
+- Mezz Config 0.6.10 -> 0.7.1
+- Mod Menu 21.0.0 -> 21.0.1
+- Puzzles Lib 26.3.17 -> 26.3.18
+- Right Click Harvest 4.6.2 -> 4.7.0
+- Sodium 0.9.3-beta.1 -> 0.9.3-beta.5
+- SuperMartijn642's Core Lib 1.1.26c -> 1.1.26d
+- Veinminer 2.13.0 -> 2.13.1
+- Veinminer Client 2.13.0 -> 2.13.1
+
 ## [1.2.1] - 2026-11-02
 ### Updated
 - C2ME 0.4.2-alpha.0.106 -> 0.4.2-alpha.0.115
